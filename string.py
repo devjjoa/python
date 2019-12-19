@@ -12,9 +12,9 @@ eng_name = {
 
 #저는 홍길동 입니다. My name is hong 문자열을 만들고 싶다.
 
-intro = '저는' + 지목된사람 + '입니다. ' + 'My name is ' + 지목된영어이름
+intro = '저는 ' + 지목된사람 + '입니다. ' + 'My name is ' + 지목된영어이름
 intro2 = '저는 {}입니다. My name is {}'.format(지목된사람, 지목된영어이름)
-intro3 = f'저는{지목된사람} 입니다. My name is {지목된영어이름}'
+intro3 = f'저는 {지목된사람}입니다. My name is {지목된영어이름}'
 print (intro)
 print (intro2)
 print (intro3)
